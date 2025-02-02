@@ -1,6 +1,6 @@
+import Header from "./components/Header/Header.jsx";
+import ListComponent from "./components/ListComponent.jsx";
 import { CORE_CONCEPTS } from "./data.js";
-import { Header } from "./components/Header.jsx";
-import { ListComponent } from "./components/ListComponent.jsx";
 
 function App() {
   return (

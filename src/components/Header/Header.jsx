@@ -1,10 +1,11 @@
-import reactLogo from "../assets/react-core-concepts.png";
+import "./Header.css";
+import reactLogo from "../../assets/components.png";
 
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
 
 const genRandomInt = (max) => Math.floor(Math.random() * max);
 
-export function Header() {
+export default function Header() {
   const adjective = reactDescriptions[genRandomInt(reactDescriptions.length)];
 
   return (

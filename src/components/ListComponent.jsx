@@ -1,4 +1,4 @@
-export function ListComponent({ image, title, description }) {
+export default function ListComponent({ image, title, description }) {
   return (
     <li>
       <img src={image} alt={title} />
