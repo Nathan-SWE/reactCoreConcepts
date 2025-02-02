@@ -4,10 +4,10 @@ import { CORE_CONCEPTS } from "./data.js";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <main>
-        <section id="core-concepts">
+      <section>
+        <div id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
             <ListComponent {...CORE_CONCEPTS[0]} />
@@ -15,9 +15,9 @@ function App() {
             <ListComponent {...CORE_CONCEPTS[2]} />
             <ListComponent {...CORE_CONCEPTS[3]} />
           </ul>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </>
   );
 }
 
