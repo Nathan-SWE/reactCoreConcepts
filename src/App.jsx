@@ -1,36 +1,6 @@
-import reactLogo from "./assets/react-core-concepts.png";
 import { CORE_CONCEPTS } from "./data.js";
-
-const reactDescriptions = ["Fundamental", "Crucial", "Core"];
-
-function genRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-function Header() {
-  const adjective = reactDescriptions[genRandomInt(reactDescriptions.length)];
-
-  return (
-    <header>
-      <img src={reactLogo} alt="Stylized atom" />
-      <h1>React Essentials</h1>
-      <p>
-        {adjective} React concepts you will need for almost any app you are
-        going to build!
-      </p>
-    </header>
-  );
-}
-
-function CoreConcept({ image, title, description }) {
-  return (
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  );
-}
+import { Header } from "./components/Header.jsx";
+import { ListComponent } from "./components/ListComponent.jsx";
 
 function App() {
   return (
@@ -40,10 +10,10 @@ function App() {
         <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
-            <CoreConcept {...CORE_CONCEPTS[0]} />
-            <CoreConcept {...CORE_CONCEPTS[1]} />
-            <CoreConcept {...CORE_CONCEPTS[2]} />
-            <CoreConcept {...CORE_CONCEPTS[3]} />
+            <ListComponent {...CORE_CONCEPTS[0]} />
+            <ListComponent {...CORE_CONCEPTS[1]} />
+            <ListComponent {...CORE_CONCEPTS[2]} />
+            <ListComponent {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
       </main>
