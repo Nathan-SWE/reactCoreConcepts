@@ -22,9 +22,11 @@ Durante o desenvolvimento, foram abordados tópicos essenciais como:
 
 - Estilização CSS (estática e dinâmica)
 
-## Acessar o projeto
+## Acesse o projeto clicando na imagem
 
-...
+|                                                                          Imagem de Desktop                                                                          |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![Preview do Projeto](https://raw.githubusercontent.com/Nathan-SWE/reactCoreConcepts/refs/heads/main/docs/page.webp)](https://react-core-concepts-one.vercel.app/) |
 
 ## Tecnologias Utilizadas
 
