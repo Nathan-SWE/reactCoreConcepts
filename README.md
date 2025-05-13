@@ -28,12 +28,35 @@ Durante o desenvolvimento, foram abordados tópicos essenciais como:
 
 ## Tecnologias Utilizadas
 
-- **React.js**: Estruturação do conteúdo.
-- **CSS3**: Estilização e responsividade.
+- **React.js** <img width="15px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  : Gerenciamento de estados.
+- **CSS3**
+  <img width="15px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+  : Estilização e responsividade.
+- **HTML** <img width="15px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />: Renderização do conteúdo.
 
-## Como Rodar o Projeto
+## Como rodar o projeto local
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/Nathan-SWE/reactCoreConcepts.git
+   ```
+
+2. Acessar pasta do projeto
+
+   ```bash
+   cd reactCoreConcepts
+   ```
+
+3. instalar dependências
+
+   ```bash
+   npm install
+   ```
+
+4. executar o projeto em ambiente de desenvolvimento
+
+   ```bash
+   npm run dev
    ```
